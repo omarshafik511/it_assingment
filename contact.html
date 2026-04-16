@@ -3,54 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Add Course</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
-        <nav>
-            <a href="index.html" class="logo">Course Organizer</a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
+    <nav>
+            <ul>
+                <a href="index.html" class="site_title">Course Organizer</a>
+                <!-- active bec when we are in home still marked-->
+                <li><a href="index.html" >Home</a></li>
                 <li><a href="courses.html">My Courses</a></li>
-                <li><a href="add-course.html">Add Course</a></li>
+                <li><a href="add-course.html" >Add Course</a></li>
                 <li><a href="contact.html" class="active">Contact Us</a></li>
             </ul>
-        </nav>
-    </header>
-
+    </nav>
     <main>
-        <section>
-            <h1 class="page-title">Contact Us</h1>
-            
-            <p style="margin-bottom: 2rem; color: var(--text-muted);">Have a question or need assistance? Send us a message below.</p>
+        <h1>Contact Us</h1>
+        <p>Have a question or need assistance? Send us a message below</p>
+        <form method = get>
+            <label for=name>Your Name</label>s
+            <input type="text" id="name" placeholder="Enter full name" required>
 
-            <form action="#" method="GET">
-                <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" class="form-control" required placeholder="Enter your full name">
-                </div>
+            <label for="Email Address">Email Address</label>
+            <input type="email" id="Email Address" placeholder="omar@" required>
 
-                <div class="form-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" class="form-control" required placeholder="Enter your email address">
-                </div>
-                
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" class="form-control" required placeholder="How can we help you?"></textarea>
-                </div>
-                
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-            
-        </section>
+            <label for="Message">Message</label>
+            <input type="text" id="Message" placeholder="Enter your messge">
+
+            <input type="submit" class="pla"></input>
+        </form>
     </main>
-
-    <footer>
-        <p>&copy; 2026 Personal Course Organizer.||Designed by Omar Ashraf|| All Rights Reserved.</p>
-    </footer>
-
-</body>
-</html>
+</body>    
