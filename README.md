@@ -1,20 +1,16 @@
-# Hi, I'm Omar Ashraf 👋
+# Personal Course Organizer 📚
 
-### 🚀 About Me
-- 🎓 Computer Science Student at **Helwan University** (Faculty of Computers and Artificial Intelligence).
-- 💡 Passionate about **Artificial Intelligence** and building efficient software solutions.
-- 🏊‍♂️ Outside of coding, I'm a **Swimming Coach** at 15th of May City Sporting Club.
+### 📝 Description
+A responsive, multi-page web application designed to help university students track and organize their academic courses. It allows students to manage schedule details and instructor information across various devices.
 
-### 🛠 Tech Stack
-- **Languages:** C, C++, Python (Fundamentals), JavaScript.
-- **Web Development:** HTML5, CSS3, Responsive Design.
-- **Tools:** Git, GitHub, VS Code, Proteus Design Suite.
+### ✨ Features
+- **Course Tracking Dashboard:** Centralized table to view names, instructors, and credit hours.
+- **Dynamic Forms:** Interface for adding new subjects with validation.
+- **Responsive UI:** Fully optimized for mobile, tablet, and desktop using CSS Media Queries.
+- **Semantic Structure:** Built with modern HTML5 standards (nav, main, footer).
 
-### 📁 Featured Projects
-- **[Hospital Management System](https://github.com/omarshafik511/Hospital-Management-System):** A C++ console application for database management.
-- **[Library Management System](https://github.com/omarshafik511/Library-Management-System-CPP):** A tool for automating library operations using advanced C++ logic.
-- **[Course Organizer](https://github.com/omarshafik511/courses_organzier):** A responsive multi-page web application for academic tracking.
-
-### 📫 How to reach me
-- **LinkedIn:** [Your LinkedIn Link]
-- **Email:** [Your Email Address]
+### 💻 Technologies Used
+- **HTML5:** Semantic structure and form implementation.
+- **CSS3:** Custom styling, Flexbox layouts, and responsive breakpoints.
+---
+Developed by **Omar Ashraf** - Helwan University.
